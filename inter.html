@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="interview-container">
+    <div id="difficulty-badge" class="badge-medium">Difficulty: Medium</div>
+    <div class="timer-circle">
+        <svg><circle r="50" cx="60" cy="60"></circle></svg>
+        <span id="timer-seconds">60</span>
+    </div>
+    
+    <div class="question-box">
+        <h2 id="question-text">Analyzing resume...</h2>
+    </div>
+    
+    <textarea id="user-response" placeholder="Type your answer or use voice..."></textarea>
+    
+    <div class="controls">
+        <button onclick="submitAnswer()" id="submit-btn">Submit Answer</button>
+    </div>
+</div>
+<script src="./app.js"></script>
+<script src="./app1.cpp"></script>
+
+</body>
+</html>
